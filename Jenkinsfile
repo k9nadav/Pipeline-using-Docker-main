@@ -46,7 +46,7 @@ pipeline {
              
             steps 
 			{
-                sh "docker run -d -p 8003:8080 dockerdemo/samplewebapp"
+                sh "docker run -d -p 8002:8080 dockerdemo/samplewebapp"
  
             }
         }
